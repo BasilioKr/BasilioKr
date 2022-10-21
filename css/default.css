@@ -467,7 +467,7 @@ dd { margin: 0 0 0 20px; }
    background-color: #E6E8EB;
 	color: #A9ADB2;
 }
-.pagination .prev, .pagination .next {}
+
 
 /* 5. Media   --------------------------------------------------------- */
 
@@ -479,6 +479,7 @@ object {
    max-width: 100%;
    height: auto;
 }
+
 img.pull-right { margin: 12px 0px 0px 18px; }
 img.pull-left { margin: 12px 18px 0px 0px; }
 
