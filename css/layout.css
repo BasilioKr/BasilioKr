@@ -220,7 +220,7 @@ ul#nav li.current a { color: #fff; }
 
 /* Hero CTA Buttons */
 #hero .buttons {
-   position: top;
+   
    text-align: center;
    margin: 0 0 32px 0px;
 }
