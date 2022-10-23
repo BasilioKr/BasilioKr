@@ -490,7 +490,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 14px/24px 'montserrat-bold', sans-serif;
-   background: #11ABB0;
+   background: #73ac38;
    color: #fff;
    display: inline-block;   
 	text-decoration: none;
@@ -517,7 +517,7 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-   background: #14D0D6;
+   background: #95c562;
    color: #fff;
 }
 
