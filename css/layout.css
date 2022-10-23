@@ -187,7 +187,7 @@ ul#nav li.current a { color: #fff; }
 .hero-text {
 	color: #676e73;
    width: 83%;
-   text-align: center;
+   text-align: right;
    margin: 54px auto 24px auto;
 }
 .hero-text h1 {
@@ -752,8 +752,8 @@ footer .footer-logo a {
    margin-left: 3px;
 }
 footer .footer-logo a img {
-   height: 24px;
-   width: 92px;
+   height: 25%;
+   width: 25%;
 }
 
 footer .right-cols .columns {
