@@ -1,8 +1,6 @@
 /* 
 =====================================================================
-*   Woo Media Queries
-*   url: styleshout.com
-*   05-02-2014
+
 /* ================================================================== */
 
 
@@ -43,7 +41,7 @@
    #hero { padding-top: 60px; }
    .hero-text { width: 88%; }
    .hero-text h1 { font: 35px/1.2em 'montserrat-regular', sans-serif; }
-   .hero-text p { font: 15px/30px 'opensans-regular', sans-serif; } 
+   .hero-text p { font: 35px/30px 'opensans-regular', sans-serif; } 
   
    /* nav-wrap */
    #nav-wrap { font: 10px 'montserrat-regular', sans-serif; }
@@ -197,7 +195,7 @@
    #hero { padding-top: 48px; }
    .hero-text { width: 92%; }
    .hero-text h1 { font: 31px/1.2em 'montserrat-regular', sans-serif; }
-   .hero-text p { font: 14px/24px 'opensans-regular', sans-serif; } 
+   .hero-text p { font: 24px/24px 'opensans-regular', sans-serif; } 
 
    /* Hero CTA Buttons */
    #hero .buttons { margin-bottom: 30px; }
