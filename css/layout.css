@@ -1,8 +1,6 @@
 /*
 =====================================================================
-*   Woo v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   05-02-2014
+
 =====================================================================
 
    TOC:
@@ -302,6 +300,11 @@ ul#nav li.current a { color: #fff; }
    text-align: center;
    margin-bottom: 36px;
 }
+.price-block{
+   height: 607px;
+   max-height: 607px ;
+}
+
 .plan-title {
   	font: 15px/30px 'montserrat-regular', sans-serif;
   	padding: 30px 20px 6px 20px;
@@ -344,9 +347,11 @@ ul.features li:nth-child(odd) { }
 ul.features li:nth-child(even) { }
 
 .plan-sign-up {
+   bottom: 15px;
   	padding: 24px 15px;
    margin: 0;
    text-align: center;
+   
 }
 .plan-sign-up .button {
    font: 13px/24px 'montserrat-bold', sans-serif;
