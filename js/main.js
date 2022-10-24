@@ -63,7 +63,7 @@
 
    	$('h1.responsive-headline').fitText(1.2, { minFontSize: '15px', maxFontSize: '40px' });
 
-  	}, 100);
+  	}, 300);
 
 
   	/*----------------------------------------------------*/
