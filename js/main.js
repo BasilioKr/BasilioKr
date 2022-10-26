@@ -18,7 +18,11 @@
     	$("#preloader").delay(500).fadeOut("slow").remove();     
       
     	$('.js #hero .hero-image img').addClass("animated fadeInUpBig"); 
-      $('.js #hero .buttons a.trial').addClass("animated shake");    
+    	
+		$('#logotext').addClass("animated fadeInUpBig"); 
+		
+
+        $('.js #hero .buttons a.trial').addClass("animated shake");    
 
   	}) 
 
@@ -63,7 +67,7 @@
 
    	$('h1.responsive-headline').fitText(1.2, { minFontSize: '15px', maxFontSize: '40px' });
 
-  	}, 300);
+  	}, 100);
 
 
   	/*----------------------------------------------------*/

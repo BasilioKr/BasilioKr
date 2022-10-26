@@ -206,24 +206,32 @@ ul#nav li.current a { color: #fff; }
    padding: 0;
    margin: 0;
    color: #fff;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
+   
 }
 
 /* Hero Image */
 .hero-image {
-   width: 40%;
-   text-align: center;
-   margin:10px 10px 10px 10px;
+   width: 50%;
+   padding-bottom: 30px;
    filter:drop-shadow(0px 0px 12px rgb(0, 0, 2));
    display: block;
    margin-left: auto;
-   margin-right: auto
+   margin-right: auto;
 
 }
 .hero-image img {
-   width: 100%;
+   width: 90%;
    filter:drop-shadow(0px 0px 5px rgb(0, 0, 2));
-   
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#logotext {
+   color: #d0d0ca;
+   text-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+   font: 40px 'Lobster', cursive;
+   text-align: center;
 }
 
 /* Hero CTA Buttons */
@@ -282,7 +290,10 @@ ul#nav li.current a { color: #fff; }
 }
 .fluid-video-wrapper { margin-top: 18px; }
 #fotka{
-   height: 350px;
+   height: 320px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
  }
 
 /*----------------------------------------------*/

@@ -195,13 +195,17 @@ h6 { font-size: 14px; line-height: 30px; }
 
 
 p { 
-   margin-bottom:30px;
+   margin: 0 0 5% 0;
    text-align:justify;
+}
+#fototext{
+   text-align:inherit;
 }
 
 .responsive-headline >p { 
-   text-shadow:3px 3px 8px rgb(2, 2, 2); 
+   text-shadow:0px 0px 2px rgb(255, 255, 255); 
    text-align:inherit;
+
    display: block;
    margin-left: auto;
    margin-right: auto
