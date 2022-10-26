@@ -217,10 +217,12 @@ ul#nav li.current a { color: #fff; }
     width: 50%;
     text-align: center;
     margin:10px 10px 10px 10px;
+    filter:drop-shadow(0px 0px 12px rgb(0, 0, 2));
+
 }
 .hero-image img {
    width: 100%;
-   /* box-shadow:3px 3px 6px rgb(2, 2, 2); */
+   filter:drop-shadow(0px 0px 5px rgb(0, 0, 2));
    
 }
 
@@ -745,7 +747,7 @@ ul.features li:nth-child(even) { }
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 84px;
+   padding-top: 44px;
    margin-bottom: 60px;
    color: #3c4753;
    font-size: 13px;
@@ -764,9 +766,14 @@ footer .footer-logo a {
    margin-top: 12px;
    margin-left: 3px;
 }
+
 footer .footer-logo a img {
-   height: 100%px;
-   width: 92px;
+   margin: 0 0 0 38%;
+   width: 90px;
+}
+
+footer .footer-logo p {
+   text-align: center;
 }
 
 footer .right-cols .columns {
@@ -813,7 +820,7 @@ footer ul li a:focus { color: #fff; }
 /* copyright */
 footer .copyright {
    margin: 0;
-   padding: 0 18px;
+   padding: 0 99px;
    clear: both;
 }
 
