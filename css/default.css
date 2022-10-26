@@ -199,7 +199,13 @@ p {
    text-align:justify;
 }
 
-.responsive-headline >p { margin: 0 0 20px 10%; text-shadow:3px 3px 8px rgb(2, 2, 2); }
+.responsive-headline >p { 
+   text-shadow:3px 3px 8px rgb(2, 2, 2); 
+   text-align:inherit;
+   display: block;
+   margin-left: auto;
+   margin-right: auto
+}
 
 p img { margin: 0; }
 
