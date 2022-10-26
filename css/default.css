@@ -192,11 +192,14 @@ h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
 h5 { font-size: 18px; line-height: 30px; }
 h6 { font-size: 14px; line-height: 30px; }
-.subheader { }
 
-p { margin: 0 0 30px 0; }
 
-.responsive-headline >p { margin: 0 0 20px 10%; text-shadow:3px 3px 6px rgb(2, 2, 2); }
+p { 
+   margin-bottom:30px;
+   text-align:justify;
+}
+
+.responsive-headline >p { margin: 0 0 20px 10%; text-shadow:3px 3px 8px rgb(2, 2, 2); }
 
 p img { margin: 0; }
 
