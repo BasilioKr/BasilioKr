@@ -49,3 +49,7 @@ h1 {
 .featurette-heading{
     font-size: 40px;
 }
+#fotoscr {
+    border: 0;
+    border-radius:0;
+}
