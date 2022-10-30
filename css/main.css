@@ -3,13 +3,46 @@
     --color2: #686868;
     --color3: #13171B;
 }
-.conteiner , .col, p {
+
+.conteiner,
+.col,
+p {
     padding: 3%;
 }
-h1{
+
+h1 {
     font: 40px 'Lobster', cursive;
     color: var(--color1);
 }
-#navbar{
+
+#navbar {
     background: var(--color3);
+}
+
+.black-color {
+    overflow: hidden;
+    transition: filter .3s ease-in-out;
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+}
+
+.black-color:hover {
+    -webkit-filter: brightness(30%);
+    filter: brightness(30%);
+}
+.black-color:focus {
+    box-shadow: none;
+}
+
+#fotoscr img {
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+}
+#fotoscr img:hover {
+-webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.modal-body {
+    overflow-y: hidden;
 }
