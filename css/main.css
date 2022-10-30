@@ -46,3 +46,6 @@ h1 {
 .modal-body {
     overflow-y: hidden;
 }
+.featurette-heading{
+    font-size: 40px;
+}
