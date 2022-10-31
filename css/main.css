@@ -5,10 +5,10 @@
     --color4:
 }
 
-.conteiner,
+/* .conteiner,
 .col {
     padding: 3%;
-}
+} */
 
 h1 {
     font: 40px 'Lobster', cursive;
@@ -46,7 +46,6 @@ h1 {
 #fotoscr img {
     -webkit-transition: .2s linear;
     transition: .2s linear;
-
 }
 
 #fotoscr img:hover {
@@ -68,7 +67,7 @@ h1 {
 }
 
 .featurette-heading {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 /*  Btn  */
@@ -99,7 +98,6 @@ h1 {
     background: rgb(108, 189, 190);
     background: radial-gradient(circle, rgba(108, 189, 190, 1) 0%, rgb(69, 78, 87) 100%);
     border-color: rgba(33, 37, 41, 1);
-    
 }
 
 #btn_product:hover {
