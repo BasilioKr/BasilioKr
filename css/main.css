@@ -2,7 +2,7 @@
     --color1: #d0d0ca;
     --color2: #666a6d;
     --color3: #13171B;
-    --color4:
+    --color4: #6cbdbe;
 }
 
 /* .conteiner,
@@ -71,8 +71,27 @@ h1 {
 }
 
 /*  Btn  */
+.btn_price {
+    background-color: var(--color4);
+    color: azure;
+    text-transform: uppercase;
+    border-color: var(--color4);
+    filter: drop-shadow(0px 0px 5px rgb(55, 94, 95));
+}
+.btn_price:hover {
+    background-color: rgb(90, 158, 159);
+    color: azure;
+    text-transform: uppercase;
+    border-color: rgb(90, 158, 159) ;
+    filter: drop-shadow(0px 0px 3px rgb(55, 94, 95));
+}
+.card-header {
+    background-color: rgba(86, 145, 147, 0.361);
+    text-indent:  10px;
+}
 .btn {
     font-weight: 500;
+    
     
 }
 
@@ -98,7 +117,7 @@ h1 {
 #btn_product {
     filter: drop-shadow(2px 2px 5px rgb(0, 0, 2));
     background: rgb(108, 189, 190);
-    background: radial-gradient(circle, rgba(108, 189, 190, 1) 0%, rgb(69, 78, 87) 100%);
+    background: radial-gradient(circle, #6cbdbe 0%, rgb(69, 78, 87) 100%);
     border-color: rgba(33, 37, 41, 1);
     color: azure;
 }
