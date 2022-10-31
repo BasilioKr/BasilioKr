@@ -73,7 +73,7 @@ h1 {
 /*  Btn  */
 .btn {
     font-weight: 500;
-    color: azure;
+    
 }
 
 #btn_price {
@@ -84,6 +84,7 @@ h1 {
     background: radial-gradient(circle, rgba(255, 33, 53, 1) 0%, rgba(125, 18, 45, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff2135", endColorstr="#7d122d", GradientType=1);
     border-color: #440918;
+    color: azure;
 }
 
 #btn_price:hover {
@@ -91,6 +92,7 @@ h1 {
     background: rgb(209, 25, 42);
     background: radial-gradient(circle, rgba(209, 25, 42, 1) 0%, rgba(68, 9, 24, 1) 100%);
     border-color: #440918;
+    color: azure;
 }
 
 #btn_product {
@@ -98,6 +100,7 @@ h1 {
     background: rgb(108, 189, 190);
     background: radial-gradient(circle, rgba(108, 189, 190, 1) 0%, rgb(69, 78, 87) 100%);
     border-color: rgba(33, 37, 41, 1);
+    color: azure;
 }
 
 #btn_product:hover {
@@ -105,4 +108,5 @@ h1 {
     background: rgb(108, 189, 190);
     background: radial-gradient(circle, rgba(108, 189, 190, 1) 0%, rgba(33, 37, 41, 1) 100%);
     border-color: rgba(33, 37, 41, 1);
+    color: azure;
 }
