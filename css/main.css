@@ -63,14 +63,11 @@ h5 {
     border: 0;
 }
 
-#fotoscr img:focus {
+/* .img_featurette:hover{
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
     border: 0;
-}
-.img_featurette:hover{
-    -webkit-filter: brightness(30%);
-    filter: brightness(30%);
-    border: 0;
-}
+} */
 .img_featurette {
     transition: filter .3s ease-in-out;
     -webkit-filter: brightness(100%);
@@ -78,18 +75,19 @@ h5 {
     border: 0;
     border-radius: 0;
 }
-#featurettescr img:hover {
+#mod1:hover {
     -webkit-transform: scale(1.15);
     transform: scale(1.15);
     border: 0;
 }
-#featurettescr img {
+#mod1{
     -webkit-transition: .2s linear;
     transition: .2s linear;
     border: 0;
 }
 
-#featurettescr img:focus {
+#featurettescr:focus {
+    box-shadow: none;
     border: 0;
 }
 
@@ -133,6 +131,9 @@ h5 {
 
 .btn {
     font-weight: 500;
+}
+.btn-featurettescr{
+    border: color red;
 }
 
 #btn_price {
