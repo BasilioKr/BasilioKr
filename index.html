@@ -32,7 +32,7 @@
     <heder>
 
         <!-- Nawbar    -->
-        <nav id="navbar" class="navbar navbar-expand-md navbar-dark sticky-top" style="height: 44px ;">
+        <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top" style="height: 44px ;">
 
             <nav class="navbar navbar-dark">
 
@@ -53,7 +53,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul id="nav-collapse" class="navbar-nav me-auto mb-2 mb-lg-0">
 
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#product">Продукт</a>
@@ -901,34 +901,61 @@
             </div>
         </div>
 
-        <div class="conteiner">
+        <div id="sub" class="conteiner py-4 text-center bg-dark">
             <div class="row">
 
-                <div class="col-mg-12">
+                
+                    <h4 class="mb-5 text-center"><strong>Підпишись на новини</strong></h4>
 
-                    <!-- Begin MailChimp Signup Form -->
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-6">
+                            <form>
+                                <!-- 2 column grid layout with text inputs for the first and last names -->
+                                <div class="row mb-4">
+                                    <div class="col">
+                                        <div class="form-outline">
+                                            <input type="text" id="form3Example1" class="form-control bg-dark">
+                                            <label class="form-label" for="form3Example1" style="margin-left: 0px;">Ваше
+                                                ім'я</label>
+                                            <div class="form-notch">
+                                                <div class="form-notch-leading" style="width: 9px;"></div>
+                                                <div class="form-notch-middle" style="width: 68.8px;"></div>
+                                                <div class="form-notch-trailing"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-outline">
+                                            <input type="text" id="form3Example2" class="form-control bg-dark">
+                                            <label class="form-label" for="form3Example2"
+                                                style="margin-left: 0px;">Прізвище</label>
+                                            <div class="form-notch">
+                                                <div class="form-notch-leading" style="width: 9px;"></div>
+                                                <div class="form-notch-middle" style="width: 68px;"></div>
+                                                <div class="form-notch-trailing"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                    <div id="mc_embed_signup">
-                        <form
-                            action="http://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e65110b38d"
-                            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-                            class="validate" target="_blank" novalidate>
-
-                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
-                                placeholder="електронна адреса" required>
-                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;"><input type="text"
-                                    name="b_cdb7b577e41181934ed6a6a44_e65110b38d" value=""></div>
-                            <div class="clear"><input type="submit" value="Підписатись" name="subscribe"
-                                    id="mc-embedded-subscribe" class="button"></div>
-
-                        </form>
+                                <!-- Email input -->
+                                <div class="form-outline mb-4">
+                                    <input type="email" id="form3Example3" class="form-control bg-dark">
+                                    <label class="form-label" for="form3Example3"
+                                        style="margin-left: 0px;">Email</label>
+                                    <div class="form-notch">
+                                        <div class="form-notch-leading" style="width: 9px;"></div>
+                                        <div class="form-notch-middle" style="width: 88.8px;"></div>
+                                        <div class="form-notch-trailing"></div>
+                                    </div>
+                                    <button type="submit" class="btn btn_price btn-block mb-4">
+                                        Надіслати
+                                      </button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-
-                    <p><small>Ми ніколи не використовуємо вашу інвормацію для розсилки спаму</small></p>
-
-                </div>
-
+                </section>
             </div>
         </div>
     </section> <!-- Subscribe Section End-->
