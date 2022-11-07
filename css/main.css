@@ -66,12 +66,35 @@ h5 {
 #fotoscr img:focus {
     border: 0;
 }
-
-#fotoscr img:hover {
+.img_featurette:hover{
+    -webkit-filter: brightness(30%);
+    filter: brightness(30%);
+    border: 0;
+}
+.img_featurette {
+    transition: filter .3s ease-in-out;
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+    border: 0;
+    border-radius: 0;
+}
+#featurettescr img:hover {
     -webkit-transform: scale(1.15);
     transform: scale(1.15);
     border: 0;
 }
+#featurettescr img {
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+    border: 0;
+}
+
+#featurettescr img:focus {
+    border: 0;
+}
+
+
+
 
 /* logo */
 #logotext {
