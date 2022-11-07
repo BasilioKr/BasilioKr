@@ -12,6 +12,7 @@
 } */
 
 h1 {
+    padding-top: 30px;
     font: 40px 'Lobster', cursive;
     color: var(--color1);
 }
