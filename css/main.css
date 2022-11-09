@@ -173,9 +173,8 @@ h5 {
 
 .bg-image {
     background-image:  url(../css/img/escheresque.png);
-    height: 40vh;
-    min-width: 1024px;
-    
+    background-position: center center;
+    height:18rem;
 }
 
 .carousel-indicators {
